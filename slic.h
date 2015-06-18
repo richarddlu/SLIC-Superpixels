@@ -36,9 +36,11 @@ using namespace std;
  * distance parameter.
  */
 class Slic {
-    private:
+    public:
         /* The cluster assignments and distance values for each pixel. */
         vec2di clusters;
+        
+    private:
         vec2dd distances;
         
         /* The LAB and xy values of the centers. */
